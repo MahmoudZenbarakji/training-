@@ -1,6 +1,7 @@
     .add {
       display: inline-block;
       text-align: center;
+      justify-content: center;
     }
 
     .imange {
@@ -33,7 +34,9 @@
       top: 0;
       height: 50px;
     }
-
+    .navbar{
+      position: sticky;
+    }
     li {
       float: left;
       border-right: 1px solid #bbb;
@@ -60,4 +63,8 @@
     }
     .Hero_section{
       width:300px
+    }
+    .Product-title{
+      color: #ffc200;
+      text-align: center;
     }
