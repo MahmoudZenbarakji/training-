@@ -14,8 +14,8 @@
     <div class="navbar">
       <ul>
         <li><a href="default.asp">Home</a></li>
-        <li><a href="news.asp">News</a></li>
-        <li><a href="contact.asp">Contact</a></li>
+        <li><a href="#product_sesstion">Product</a></li>
+        <li><a href="#contact_sesstion">Contact</a></li>
         <li><a href="about.asp">About</a></li>
       </ul>
     </div>
@@ -23,7 +23,7 @@
   <div class="Hero_section">
     <img src="coffee.jpg" alt="">
   </div>
-  <div class="cards">
+  <div id="product_sesstion" class="cards">
     <h2 class="Product-title">Our Product</h2>
     <div class="add">
       <div class="imange"><img src="download (1).jpg" alt="here is " /></div>
@@ -45,13 +45,16 @@
 
       <p class="price">900000</p>
     </div>
-    <div class="add">
+    <button>
+          <div class="add">
       <div class="imange"><img src="download (1).jpg" alt="here is " /></div>
       <p class="name">sweater</p>
       <p class="description">the sweater is in winter</p>
 
       <p class="price">900000</p>
     </div>
+    </button>
+
     <div class="add">
       <div class="imange"><img src="download (1).jpg" alt="here is " /></div>
       <p class="name">sweater</p>
@@ -67,6 +70,19 @@
 
     <p class="price">900000</p>
   </div>
+    <section class="contact-section">
+    <div class="container">
+      <h2 class="h2">Contact Us</h2>
+      <p>We'd love to hear from you. Please fill out the form below.</p>
+      <form id ="contact_sesstion" class="contact-form">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <input type="text" name="subject" placeholder="Subject" required />
+        <textarea name="message" placeholder="Your Message" rows="5" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </div>
+  </section>
 </body>
 
 </html>
